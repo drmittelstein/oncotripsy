@@ -1,3 +1,6 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
 % Wellplate allows you to load an 24 well plate experimental file and run
 % the signal generator and motor stage to expose each well of the 24 well
 % plate to a unique ultrasound signal.

@@ -1,3 +1,10 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% Moves motor stage in 3 dimensions to ascend the gradient to a local maximum
+% Attention!  Monitor the hydrophone used to measure pressure here, this script may cause
+% the transducer to directly collide with the transducer!
+
 % Motor Stage - must be set near the focal point
 %
 % Function Generator must be manually set at center frequency

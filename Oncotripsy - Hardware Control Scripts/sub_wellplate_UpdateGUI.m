@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Update the wellplate GUI
+
 function sub_wellplate_UpdateGUI(params)
 try
         set(params.GUI.h_Details,'String',params.GUI.Details)

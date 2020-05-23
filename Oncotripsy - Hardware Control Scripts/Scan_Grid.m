@@ -1,3 +1,8 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% Uses Velmex stage to move in a predefined pattern to get pressure waveform at all points
+
 %% Initiatlize
 % Users can change these parameters to control how acquisition is performed
 % by oscilloscope
@@ -14,7 +19,7 @@ params.Debug = 0; % Set to 1 to generate simulated data instead of reading
 % is acquired
 
 params.Scan.SaveWaveforms = 1;
-% Recommeneded 1
+% Recommended 1
 % Set to 1 to save the full waveform acquired at every location on the grid
 % this is required to observe phase information of the signal
 % If set to 0, only the peak-to-peak voltage and energy at each point will

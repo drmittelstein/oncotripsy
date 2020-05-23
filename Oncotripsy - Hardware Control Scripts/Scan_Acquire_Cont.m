@@ -1,4 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
 
+% Acquire waveform continually, refreshing as fast as possible
+% Allows for capturing time varying phenomenon that are not linked
+% To a signal for acquisition
 
 sub_Close_All_Connections;
 

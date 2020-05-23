@@ -1,3 +1,8 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% Activates a GUI that allows for control of Velmex stage
+
 function varargout = stage_GUI(varargin)
 % STAGE_GUI MATLAB code for stage_GUI.fig
 %      STAGE_GUI, by itself, creates a new STAGE_GUI or raises the existing

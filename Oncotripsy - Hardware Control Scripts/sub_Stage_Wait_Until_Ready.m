@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Wait until the stage is ready
+
 function params = sub_Stage_Wait_Until_Ready(params)
 
 % Loop checking status until it's ready

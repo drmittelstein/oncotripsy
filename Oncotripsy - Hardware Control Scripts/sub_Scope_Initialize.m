@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Form a connection to the oscilloscope
+
 function params = sub_Scope_Initialize(params)
 
 if params.Debug == 1; return; end

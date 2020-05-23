@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Apply settings to the signal generator, and prime for a receiving a trigger command
+
 function params = sub_SG_ApplySettingsForTrigger(params)
 
 try

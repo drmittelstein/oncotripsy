@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Move to a certian desired location
+
 function params = sub_Stage_Move_To(params, desired_location)
 
 try

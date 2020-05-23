@@ -1,3 +1,6 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
 % Transducer Response Script
 % Cycles through a set of voltages and frequencies to determine the
 % transducer response to signal generator signal using a hydrophone setup.

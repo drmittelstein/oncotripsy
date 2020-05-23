@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Compresses a waveform
+
 function compressed_waveform = sub_Data_CompressWaveform(waveform)
 
 try; waveform.RawData = []; catch; end;

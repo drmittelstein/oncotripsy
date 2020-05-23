@@ -1,3 +1,8 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% Move a specific number of mm
+
 sub_Close_All_Connections;
 
 %% Setup the Initial Motor Stages Parameters

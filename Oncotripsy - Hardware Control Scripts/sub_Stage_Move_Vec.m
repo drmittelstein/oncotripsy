@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Move by a certain vector offset
+
 function params = sub_Stage_Move_Vec(params, vector)
 
 if params.Stages.Speed > 6000

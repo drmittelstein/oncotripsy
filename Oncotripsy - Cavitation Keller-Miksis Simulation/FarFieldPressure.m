@@ -1,3 +1,8 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% Generate far field pressure plot from Keller-Miksis simulation results
+
 clearvars
 load('vars/out.mat')
 mkdir('plots')

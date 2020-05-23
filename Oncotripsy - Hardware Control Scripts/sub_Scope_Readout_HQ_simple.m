@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Read out data from oscilloscope at maximum data quality, making some simplifying assumptions
+
 function params = sub_Scope_Readout_HQ(params)
 
 % Clear previous data from channels

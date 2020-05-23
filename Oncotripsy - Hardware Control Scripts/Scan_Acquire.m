@@ -1,3 +1,8 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% Acquire a single waveform at one position
+
 % Motor Stage - must be set near the focal point
 %
 % Function Generator must be manually set at center frequency

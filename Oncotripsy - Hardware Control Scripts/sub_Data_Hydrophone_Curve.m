@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Convert voltage per time to pressure per time given calibration file
+
 function answer = sub_process_hydrophone_curve(time,voltage,calibration)
 
 % Function to process a waveform from a hydrophone based on the provided

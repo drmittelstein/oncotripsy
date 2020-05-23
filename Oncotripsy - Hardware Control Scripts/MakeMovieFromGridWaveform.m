@@ -1,3 +1,11 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% Scan Grid data files collect pressure signal over time for various different data points
+% Stepping through time points at all positions can allow the generation of 
+% videos where pixel intensity correlates to pressure over time, allowing visualization
+% of standing wave or traveling wave patterns
+
 clc
 
 files = {...

@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Send a trigger command to the signal generator
+
 function params = sub_SG_Trigger(params)
 
 try

@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Outputs a countdown in Matlab command window
+
 function sub_Data_Countdown(trem, progress)
 trem_str = '';
 

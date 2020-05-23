@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Apply the settings in the params structure to the oscilloscope
+
 function params = sub_Scope_ApplySettings(params)
 
 %fprintf(params.Scope.visaObj, ':TRIG:SOUR CHAN1');

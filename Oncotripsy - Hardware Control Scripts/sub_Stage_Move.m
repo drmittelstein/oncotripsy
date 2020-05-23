@@ -1,3 +1,9 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% SUBROUTINE
+% Move a specified motor a specified number of motor steps
+
 function params = sub_Stage_Move(params,motor_num,num_steps)
 
 try

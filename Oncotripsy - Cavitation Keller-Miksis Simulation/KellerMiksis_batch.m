@@ -1,3 +1,8 @@
+% Author: David Reza Mittelstein (drmittelstein@gmail.com)
+% Medical Engineering, California Institute of Technology, 2020
+
+% Keller-Miksis simulations of bubble cavitaiton in response to ultrasound stimulation (batch)
+
 clc
 clearvars
 R0_array = logspace(-8, -4, 100);
