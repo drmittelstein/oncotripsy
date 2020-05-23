@@ -1,5 +1,6 @@
 clearvars
 load('vars/out.mat')
+mkdir('plots')
 
 colorsteps = 200;
 cmap = zeros(colorsteps-1 ,3);
@@ -23,36 +24,50 @@ for i = 1:numel(R0_array)
     load(sprintf('vars/dRvec_i=%d.mat', i));
     load(sprintf('vars/tvec_i=%d.mat', i));
     
-    tvec = tvec(tvec > 9e-5);
-    Rvec = Rvec(tvec > 9e-5);
-    dRvec = dRvec(tvec > 9e-5);
+    tvec = tvec(tvec > 5e-6 & tvec < 20e-6);
+    Rvec = Rvec(tvec > 5e-6 & tvec < 20e-6);
+    dRvec = dRvec(tvec > 5e-6 & tvec < 20e-6);
     
     t_ip = min(tvec):1e-10:max(tvec);
     Ra_ip = interp1(tvec, Rvec, t_ip, 'pchip');
     dRa_ip = interp1(tvec, dRvec, t_ip, 'pchip');
     ddRa_ip = [0 diff(dRa_ip) ./ diff(t_ip)];
     
-    disp(min(Ra_ip))
+    P_far_mult_Rff = Pff_mult_Rff(Ra_ip, dRa_ip, ddRa_ip);
     
+    fft_pts = length(P_far_mult_Rff); % Nb points
+    fs = 1 / (t_ip(2)-t_ip(1));
+    w = (0:fft_pts-1)./fft_pts.*fs;
+    P_farw = abs(fft(P_far_mult_Rff));
+    w_i = find(w>0.5e6, 1, 'first');
+   
     figure(1)
     clf
-    plot(t_ip * 1e6, Ra_ip * 1e6)
-    title(sprintf('R0 = %1.2f micrometer', 1e6*R0_array(i)))
+    subplot(211)
+    plot(t_ip * 1e6, Ra_ip * 1e6, 'k')
+    title(sprintf('R0 = %1.3f micrometer', 1e6*R0_array(i)))
     xlabel('Time (microsecond)')
     ylabel('Radius (micrometer)')
+    
+    subplot(212)
+    plot(w, P_farw, 'k', w(w_i), P_farw(w_i), 'ro')
+    xlabel('Frequency (Hz)')
+    ylabel('FFT of Emitted Pressure')
+    xlim([0 10e6])
+    
     
     f=1;
     set(findall(gcf,'-property','FontSize'),'FontSize',9)
     set(findall(gcf,'-property','FontName'),'FontName','Arial')
 
-    f_sz = [4,2];
+    f_sz = [4,4];
     set(f, 'PaperUnits', 'inches')
     set(f, 'PaperSize', f_sz)
     set(f, 'PaperPositionMode', 'manual')
     set(f, 'PaperPosition', [0 0 f_sz(1) f_sz(2)])
     print(f, '-dpng', sprintf('plots/%d.png', i))
     
-    P_far_mult_Rff = Pff_mult_Rff(Ra_ip, dRa_ip, ddRa_ip);
+    
     
     for Rff_i = 1:numel(Rff_all)
         Rff = Rff_all(Rff_i);
