@@ -49,6 +49,8 @@ For a graph of the natural frequency of bubbles as a function of initial radius,
 NatFreq.m
 ```
 
+![NatFreq](/images/NatFreq.png)
+
 ## References
 Johansen, K., J.H. Song, and P. Prentice, Validity of the Keller-Miksis equation for "non-stable" cavitation and the acoustic emissions generated. 2017 Ieee International Ultrasonics Symposium (Ius), 2017.
 
