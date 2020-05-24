@@ -12,7 +12,40 @@ This repo uses the Keller-Miksis model to simulate the pressure amplification of
 
 ![Output image](/images/FarField_FFT.png)
 
-###
+Generating this image requires two steps: 1) Running Keller-Miksis simulation for all bubble radii, 2) Taking FFT of all bubble radius vs time datasets genreated
+
+### Running Keller Miksis Simulation
+
+Use this function, with modified parameters to represent the simulation desired, to generate the Keller-Miksis radius vs time datasets
+
+```
+KellerMiksis_batch.m
+```
+
+For testing purposes, a single Keller-Miksis simulation can be done using:
+
+```
+KellerMiksis_single.m
+```
+
+### Running FFT and getting Far Field Pressure
+
+After the previous step, run this function, with modified parameters to represent the simulation desired, to generate the output figure
+
+```
+FarFieldPressure.m
+```
+
+### Natural Frequency of Bubble
+
+For a graph of the natural frequency of bubbles as a function of initial radius, run the following function:
+
+```
+NatFreq.m
+```
+
+## References
+
 
 ## Contributing
 
