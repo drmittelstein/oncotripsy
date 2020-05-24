@@ -51,10 +51,10 @@ Christopher E. Brennen, CAVITATION AND BUBBLE DYNAMICS, https://authors.library.
 
 ## Contributing
 
-Currently contributing is not suppported, please see future versions at https://github.com/drmittelstein/ultrasound_hardware_control to determine whether this changes.
+Currently contributing is not suppported, please see future versions at https://github.com/drmittelstein/oncotripsy to determine whether this changes.
 
 ## Versioning
-Please see available versions at https://github.com/drmittelstein/ultrasound_hardware_control
+Please see available versions at https://github.com/drmittelstein/oncotripsy
 
 ## Authors
 
