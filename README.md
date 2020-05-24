@@ -45,7 +45,9 @@ NatFreq.m
 ```
 
 ## References
+Johansen, K., J.H. Song, and P. Prentice, Validity of the Keller-Miksis equation for "non-stable" cavitation and the acoustic emissions generated. 2017 Ieee International Ultrasonics Symposium (Ius), 2017.
 
+Christopher E. Brennen, CAVITATION AND BUBBLE DYNAMICS, https://authors.library.caltech.edu/25017/4/chap4.htm#L2
 
 ## Contributing
 
