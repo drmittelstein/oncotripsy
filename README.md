@@ -8,7 +8,7 @@ This system requires baseline MATLAB, it was programmed on 2019, but may run on 
 
 ## How to Use
 
-This repo uses the Keller-Miksis model to simulate the pressure amplification of an incident ultrasound signal as a function of initial bubble radius and distance from center of cavitating bubble.  The following figure is generated which shows decibel gain in the incident ultrasound frequency FFT of the pressure emissions from cavitating bubbles compared to the stimulating ultrasound signal.  Initial bubble radius on the y-axis and distance from the bubble on the x-axis.  In red regions the cavitating bubble’s emitted pressure has a larger FFT signal at the stimulation frequency than the ultrasound signal.
+The Keller-Miksis model is used to simulate the pressure amplification of an incident ultrasound signal as a function of initial bubble radius and distance from center of cavitating bubble.  The following figure is generated which shows decibel gain in the incident ultrasound frequency FFT of the pressure emissions from cavitating bubbles compared to the stimulating ultrasound signal.  Initial bubble radius on the y-axis and distance from the bubble on the x-axis.  In red regions the cavitating bubble’s emitted pressure has a larger FFT signal at the stimulation frequency than the ultrasound signal.
 
 ![Output image](/images/FarField_FFT.png)
 
