@@ -37,9 +37,9 @@ After the previous step, run this function, with modified parameters to represen
 FarFieldPressure.m
 ```
 
-![Output image](/images/FarField_FFT.png)
-
 The following figure is generated which shows decibel gain in the incident ultrasound frequency FFT of the pressure emissions from cavitating bubbles compared to the stimulating ultrasound signal.  Initial bubble radius on the y-axis and distance from the bubble on the x-axis.  In red regions the cavitating bubble’s emitted pressure has a larger FFT signal at the stimulation frequency than the ultrasound signal.
+
+![Output image](/images/FarField_FFT.png)
 
 ### Natural Frequency of Bubble
 
