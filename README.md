@@ -8,7 +8,7 @@ This system requires baseline MATLAB, it was programmed on 2019, but may run on 
 
 ## How to Use
 
-The Keller-Miksis model is used to simulate the pressure amplification of an incident ultrasound signal as a function of initial bubble radius and distance from center of cavitating bubble.  This is done through two steps: 1) Running Keller-Miksis simulation for all bubble radii, 2) Taking FFT of all bubble radius vs time datasets genreated
+The Keller-Miksis model is used to simulate the pressure amplification of an incident ultrasound signal as a function of initial bubble radius and distance from center of cavitating bubble.  This is done through two steps: 1) Running Keller-Miksis simulation for all bubble radii, 2) Taking FFT of all bubble radius vs time datasets generated
 
 ### Running Keller Miksis Simulation
 
