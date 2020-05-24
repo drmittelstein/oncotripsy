@@ -28,6 +28,11 @@ For testing purposes, a single Keller-Miksis simulation can be done using:
 KellerMiksis_single.m
 ```
 
+The results of each of these simulations is also output graphically by these functions as:
+
+![Keller-Miksis](/images/keller-miksis.png)
+
+
 ### Running FFT and getting Far Field Pressure
 
 After the previous step, run this function, with modified parameters to represent the simulation desired, to generate the output figure
