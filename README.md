@@ -1,74 +1,30 @@
-# Project Title
+# Oncotripsy
 
-This repository includes scripts that allow the user to conduct ultrasound experiments.  Scripts enable the users to align and calibrate ultrasound transducers and to control the insonation of these transducers on targets in 24 well plate platforms.
+This repository includes scripts that were used to simulate the impact of cavitating bubbles in amplifying incident ultrasound waves on nearby cells.  
 
-### Prerequisites
+### Software Prerequisites
 
-This system requires MATLAB with the Agilent VISA controller add-on installed.
+This system requires baseline MATLAB, it was programmed on 2019, but may run on earlier versions.
 
-## Getting Started
+## How to Use
 
-These scripts must all be in the same directory in order to function.  The results of any scans or acquisitions made by these scripts will be in a "results" subdirectory in this directory, so place this directory in a drive with sufficient available space.
+This repo uses the Keller-Miksis model to simulate the pressure amplification of an incident ultrasound signal as a function of initial bubble radius and distance from center of cavitating bubble leading to the generation of the following image:
 
+![Output image](/images/FarField_FFT.png)
 
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+###
 
 ## Contributing
 
-Currently contributing is not suppported, please see future versions at htts://github.com/drmittelstein/oncotripsy to determine whether this changes.
+Currently contributing is not suppported, please see future versions at https://github.com/drmittelstein/ultrasound_hardware_control to determine whether this changes.
 
 ## Versioning
-Please see available versions at htts://github.com/drmittelstein/oncotripsy
+Please see available versions at https://github.com/drmittelstein/ultrasound_hardware_control
 
 ## Authors
 
-* **David Reza Mittelstein** - *Caltech Doctorate Thesis Work* - 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **David Reza Mittelstein** - "Modifying ultrasound waveform parameters to control, influence, or disrupt cells" *Caltech Doctorate Thesis in Medical Engineering*
 
 ## Acknowledgments
 
-* Acknowledgements to my colleagues in Gharib, Shapiro, and Colonius lab at Caltech who helped answer questions involved in thed development of these scripts.
+* Acknowledgements to my colleagues in Gharib, Shapiro, and Colonius lab at Caltech who helped answer questions involved in the development of these scripts.
