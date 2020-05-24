@@ -1,4 +1,4 @@
-# Oncotripsy
+# Oncotripsy - Keller-Miksis Cavitation Simulation
 
 This repository includes scripts that were used to simulate the impact of cavitating bubbles in amplifying incident ultrasound waves on nearby cells.  
 
